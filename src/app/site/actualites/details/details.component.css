@@ -1,0 +1,16 @@
+.f1 {
+    border-top: solid indigo;
+    border-bottom: solid gray 1px;
+    border-radius: 5%;
+    margin: 5% 25%;
+    padding: 5%;
+}
+img {
+    width: 100%;
+}
+.f2 {
+    text-align: right;
+}
+a {
+    text-align: left;
+}

@@ -1,0 +1,12 @@
+<tbody>
+    <tr *ngFor="let order of listrecs">
+       <td>{{ order.payload.doc.data().id }}</td>
+       <td>{{ order.payload.doc.data().nom }}</td>
+       <td><span 
+            *ngFor="let coffee of order.payload.doc.data().coffeeOrder">
+           {{ coffee }}
+          </span>
+       </td>
+    </tr>
+    </tbody>
+    hghj

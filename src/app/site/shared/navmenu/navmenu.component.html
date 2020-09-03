@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#"><img src="assets/img/logo1.png" alt=""></a>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/']">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/reclamation']">Reclamation</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/login']">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/newaccount']">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/']" (click)='signOut()'>LogOut</a>
+        </li>
+    </ul>    
+</nav>

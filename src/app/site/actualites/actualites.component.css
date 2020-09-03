@@ -1,0 +1,22 @@
+.card{
+    margin: 0% 20%;
+    text-align: right;
+    width: 60%;
+}
+.card-header{
+    max-height: 60px;
+}
+img{
+    margin: 5%;
+    width: 35%;
+    height: 40%;
+    float: right;
+}
+.text{
+    padding: 5% 30% 0% 0%;
+    text-align: center;
+}
+.card-body {
+    margin: 0% 5% 0% 5%;
+    margin-right: 1%;
+}

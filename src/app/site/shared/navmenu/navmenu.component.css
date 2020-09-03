@@ -1,0 +1,10 @@
+.navbar img{
+    height: 40px;
+    width: 40px;
+}
+.navbar-nav li{
+    margin: 0% 10%;
+}
+.navbar{
+    margin-bottom: 2%;
+}

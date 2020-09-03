@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>
+        log-In
+    </h1>
+    <form>
+      <div class="form-group">
+        <label for="name">E-mail :</label>
+        <input type="email" class="form-control" required id="email" #email>
+      </div>
+
+      <div class="form-group">
+        <label for="alterEgo">Password :</label>
+        <input type="password" class="form-control" required id="password" #password>
+      </div>
+
+      <button type="button" class="btn btn-success" (click)='seConnecter(email.value,password.value)' >Submit</button>
+
+    </form>
+</div>
